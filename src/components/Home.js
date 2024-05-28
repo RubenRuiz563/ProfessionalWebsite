@@ -1,5 +1,4 @@
 import React from 'react';
-import Cube from './Cube';
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
         I'm a Computer Science student aspiring to be a software engineer, dedicated to creating innovative and impactful software solutions.
         </p>
       </div>
-      <Cube />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import RESUME from '../assets/Resume.pdf'
+import Cube from './Cube';
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
             </a>
           </div>
         </div>
+        <Cube />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2d6c8c] text-gray-300'>
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex ml-auto'>
         <li>
           <Link to='home' smooth={true} duration={500} className='hover:underline hover:text-white transition duration-300'>
             Home
